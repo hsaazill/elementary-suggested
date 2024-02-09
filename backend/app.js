@@ -17,8 +17,16 @@ const uri = "mongodb+srv://acelmargallo04:MkfhoIf8tNp0yB7u@cluster0.yw4ydrg.mong
 const port = 5000;
 
 app.use(cors({
-    origin: "https://elementary-suggested.vercel.app"
+    origin: ["https://elementary-suggested.vercel.app",
+        "https://backend-tjgb.onrender.com"]
 }));
+
+// app.use(cors({
+//     origin: ['http://localhost:3000',
+//         'http://gamebrag.onrender.com',
+//         'https://gamebrag.onrender.com'],
+//     credentials: true
+// }))
 
 app.listen(port, () => {
     console.log(`Server running on port: ${port}...`);

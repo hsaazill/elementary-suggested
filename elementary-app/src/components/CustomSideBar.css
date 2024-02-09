@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500;700&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.CustomSideBar {
+    width: 300px;
+    height: 80vh;
+    margin-top: 2%;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+}
+
+.CustomSideBar ul {
+    width: 100%;
+    list-style: none;
+    padding: 0;
+}
+
+.CustomSideBar li {
+    padding: 8px;
+    transition: background-color 0.3s, color 0.3s;
+    width: 100%;
+}
+
+.CustomSideBar a {
+    color: black;
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
+}
+
+.CustomSideBar li:hover a,
+.CustomSideBar li:active a {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border-radius: 0 10px 10px 0;
+}
+
+
+.CustomSideBar li:hover,
+.CustomSideBar li:active {
+    color: rgb(255, 255, 255);
+    background-color: #FA9393;
+    border-radius: 0 10px 10px 0;
+}

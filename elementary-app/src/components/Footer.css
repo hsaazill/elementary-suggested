@@ -1,0 +1,137 @@
+/* Footer */
+footer {
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.38rem;
+    line-height: 1.5;
+    display: flex;
+    margin-top: auto;
+  }
+  
+  .footer_container {
+    width: 100%;
+    background-color: #C12C2C;
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+    color: rgb(187, 42, 42);
+  }
+  
+  /* Grid Section */
+  .grid {
+    margin-left: 70px;
+    display: grid;
+    grid-template-columns: 2fr 1fr; /* Add a column for the logo */
+    grid-column-gap: 30px;
+    align-items: center; /* Center items vertically */
+    margin-bottom: 30px;
+    margin-right: 50px;
+}
+
+.col1 {
+    
+    
+    margin-left: 25px;
+    margin-top: 28px;
+    
+}
+  
+ 
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Social Media Icons */
+  .socmed {
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 32px;
+  }
+  
+  .socmed div {
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.20);
+    height: 18px;
+    padding: 8px 12px;
+    border-radius: 20px;
+    margin-inline: 4px;
+  }
+  
+  .socmed .fill-white {
+    fill: white;
+  }
+  
+  /* Footer Details */
+  .footer-details {
+    width: 30%;
+    padding: 20px;
+    position: relative;
+  }
+  
+  .footer-details ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  
+  .footer-details li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-details a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    display: block;
+  }
+  
+  .footer-details a:hover {
+    color: #B61B1B;
+  }
+  
+  /* Section Line */
+  .section-line {
+    width: 90%;
+    height: 2px;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+    margin-left: 70px;
+    margin-right: 0px;
+  }
+  
+  /* Additional Footer Styles */
+  footer ul {
+    list-style: none;
+    margin-left: 30px;
+    padding: 0;
+    margin: 20px; /* Adjust margin as needed */
+}
+
+footer li a {
+    font-size: 16px; /* Adjust font size as needed */
+    margin-right: 10px; /* Adjust right margin as needed */
+    margin-left: 50px; /* Adjust left margin as needed */
+    margin-top: 10px;
+}
+
+footer p{
+    font-size: 14px; /* Adjust font size as needed */
+    margin-right: 20px; /* Adjust right margin as needed */
+    margin-top: 20px;
+    margin-left: 80px; /* Adjust left margin as needed */
+}
+
+.footer-logo {
+    width: 100px; /* Adjust the width of the logo as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.logo-container {
+    margin-top: 20px;
+    margin-left: auto; 
+    display: flex;
+    align-items: center;
+}
+
+  

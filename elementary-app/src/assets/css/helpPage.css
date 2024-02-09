@@ -1,0 +1,129 @@
+#logo {
+    width: 50px; 
+    height: 50px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+    background-color: #f0f0f0;
+    justify-content: center;
+}
+
+.ContactUs_background {
+    position: relative;
+    top: -80px;
+    left: 0;
+    width: 100%;
+    height: 350px;
+    background: linear-gradient(99deg, rgba(206, 54, 54, 0.99) 16.25%, rgba(162, 31, 31, 0.99) 46.11%, #720505 71.98%);
+    box-shadow: 18px 21px 40px 10px rgba(0, 0, 0, 0.10);
+}
+
+.introtexts {
+    position: absolute;
+    top: 110px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    text-align: center;
+    width: 100%;
+    color: #FFF;
+
+}
+
+.ContactUs {
+color: #FFF;
+font-size: 60px;
+font-weight: 500;
+line-height: normal;
+}
+
+.getintouch_text{
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.redirectBoxes {
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    width: 43%;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 350px;
+}
+
+.salesbox,
+.gitbox {
+    position: relative;
+    width: 300px;
+    height: 240px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #FFF;
+    box-shadow: 0px 0px 24px 4px rgba(22, 22, 22, 0.16);
+    transition: transform 0.3s ease;
+}
+
+.salestext,
+.githubtext {
+    color: #B40101;
+    font-family: Nunito;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-bottom: 10px;
+}
+
+.textin_sales,
+.textin_git {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    position: relative;
+}
+
+.go_arrow {
+    color: #B40101;
+    font-size: 40px;
+    position: absolute;
+    font-weight:900;
+    right: 26px; 
+    top: 10px;
+
+}
+
+
+.secondarytext {
+    font-weight: lighter;
+}
+
+.salesbox:hover,
+.gitbox:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.endingTexts {
+    text-align: center;
+    margin-top: 15%;
+}
+
+.end1, .end2{
+    font-size: 20px;
+    font-weight: light;
+}
+
+.end2{
+    text-decoration-line: underline;
+}
+

@@ -18,7 +18,7 @@ function SignUp() {
 
         try {
 
-            const response = await axios.post("https://elementary-suggested-backend.vercel.app/signup", {
+            const response = await axios.post("https://backend-tjgb.onrender.com/signup", {
                 name, email, password
             })
                 .then(res => {

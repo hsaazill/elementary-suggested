@@ -17,7 +17,7 @@ function Login() {
         e.preventDefault();
 
         try {
-            const response = await axios.post("https://elementary-suggested-backend.vercel.app//login", {
+            const response = await axios.post("https://backend-tjgb.onrender.com/login", {
                 email, password
             });
             if (response.data === "User Confirmed") {

@@ -18,7 +18,7 @@ function SignUp() {
 
         try {
 
-            const response = await axios.post("http://localhost:5000/signup", {
+            const response = await axios.post("https://elementary-suggested-backend.vercel.app/signup", {
                 name, email, password
             })
                 .then(res => {
